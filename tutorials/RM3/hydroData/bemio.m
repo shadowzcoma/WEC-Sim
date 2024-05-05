@@ -1,6 +1,6 @@
 hydro = struct();
 
-hydro = readWAMIT(hydro,'rm3.out',[]);
+hydro = readWAMIT(hydro,'test99.out',[]);
 hydro = radiationIRF(hydro,60,[],[],[],[]);
 hydro = radiationIRFSS(hydro,[],[]);
 hydro = excitationIRF(hydro,157,[],[],[],[]);
